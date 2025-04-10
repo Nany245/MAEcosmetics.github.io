@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regístrate</title>
+    <link rel="stylesheet" href="../CSS/registrar.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,200;1,14..32,200&display=swap');
+        </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="/IMG/logov1.png" alt="Logo de MAEcosmetics">
+        </div></a>
+    <nav class="topnav"></nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="categorías.html">Categorías</a></li>
+            <li><a href="sobre.html">Sobre MAEcosmetics</a></li>
+        </ul>
+        <div class="linea"></div>
+        <div class="registrate">
+            <a href="registrar.html">Regístrate</a>
+        </div>
+    </nav>
+</header>
+    <div class="contenedor">
+        <h1>Regístrate</h1>
+        <form id="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Ingresa tu nombre"><br><br>
+        
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="correo" required placeholder="Ingresa tu correo"><br><br>
+        
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="contraseña" name="contraseña" required placeholder="Ingresa tu contraseña"><br><br>
+        
+            <label for="contraseña2">Confirmar Contraseña:</label>
+            <input type="password" id="contraseña2" name="confirmar_contraseña" required placeholder="Confirma tu contraseña"><br><br>
+
+            <button class="btn">Registrar</button>
+        </form>
+    </div>
+<script src="/JAVASCRIPT/registrar.js"></script>
+</body>
+</html>

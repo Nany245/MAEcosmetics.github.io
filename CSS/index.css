@@ -1,0 +1,489 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffff;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #BBDED6;
+    height: 60px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffffff;
+}
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 108px;
+    height: auto;
+    margin-right: 20px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+    padding: 5px;
+    
+}
+
+header ul li {
+    margin-right: 58px;
+    font-size: 21px;;
+}
+
+.registrate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfcfc;
+    height: 100vh;
+    padding: 20px;
+    border-radius: 12px;
+    width: 14% ;
+    height: 10px;
+    margin-right: 16px;
+}
+
+
+
+@keyframes subirYMostrar {
+    0% {
+        opacity: 0;
+        transform: translateY(50px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+
+.principal-arriba {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #eab4df;
+    gap: 100px;
+    height: 100vh;
+    animation: subirYMostrar 1.5s ease-out;
+}
+
+.principal-arriba h2 {
+    font-size: 70px;
+    text-align: center;
+    margin: 0;
+}
+
+.principal-arriba p {
+    width: 550px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+.principal-arriba p, .principal-arriba h2 {
+    color: #333;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: extra-light;
+}
+.round {
+    width: 347px;
+    height: 347px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-left: 10px;
+    transition: filter 0.4s ease;
+}
+
+.round:hover {
+    filter: brightness(0.8);
+}
+
+.segundocont {
+    padding: 10px;
+}
+.maquillaje-en-general {
+    display: block;
+    width: 100%;
+    margin-top: 90px;
+}
+.maquillaje-en-general img {
+    padding: 0%;
+    width: 347px;
+    height: 347px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.maquillaje-en-general h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #333;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: extra-light;
+}
+
+
+
+.que-es-maquillaje {
+    float: right;
+    margin: 300px;
+    margin-top: -200px;
+    height: 352px;
+    margin-left: 800px;
+    margin-right: 90px;
+    margin-top: -400px;
+    font-size: 26px;
+    padding: 20px;
+    border: 2px;
+    width: 650px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.que-es-maquillaje:hover {
+    transform: scale(1.05);
+}
+
+.cerdito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1170px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cerdito {
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    animation: moveRight 5s linear infinite;
+}
+
+@keyframes moveRight {
+    0% {
+        left: -150px;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+hr {
+    border: #A09999 solid 2px;
+
+}
+
+.sec2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between; 
+}
+
+.box {
+    height: 400px;
+    width: 20px;
+    width: calc(33.333% - 20px);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box; 
+    box-shadow: 10px 10px 20px rgba(119, 119, 119, 0.5);
+    border-radius: 6%;
+    transition: all 0.3s ease;
+}
+
+.box:hover {
+    transform: scale(1.2);
+}
+
+
+.box img {
+    width: 50%;
+    height: auto;
+}
+
+.tiposmaquillaje {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 26px;
+    font-weight: 500;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between; 
+    margin-left: 100px;
+}
+
+.tiposmaquillaje p {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.maquillajenatural {
+    display: block;
+    width: 40%;
+    margin-top: 40px;
+    border-radius: 2%;
+}
+
+.maquillajenatural img {
+    padding: 0%;
+    width: 347px;
+    height: 347px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.maquillajenatural img {
+    transition: filter 0.4s ease;
+}
+
+.maquillajenatural img:hover {
+    filter:brightness(0.8);
+}
+
+.maquillajeartistico {
+    display: block;
+    width: 40%;
+    margin-top: 40px;
+    border-radius: 2%;
+    margin-right: 100px;
+}
+
+.maquillajeartistico img {
+    padding: 0%;
+    width: 347px;
+    height: 347px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.maquillajeartistico img {
+    transition: filter 0.4s ease;
+}
+
+.maquillajeartistico img:hover {
+    filter:brightness(0.8);
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #FFB6B9;
+    padding: 20px 40px;
+    color: #333; 
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+    height: -300px;
+}
+
+.footer img {
+    width: 150px; 
+    height: auto;
+    margin: 10px;
+}
+
+.footer h4 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+.footer h4 {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.footer h4:hover {
+    color: #fff3ff;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; 
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .logo {
+        margin-bottom: 10px; 
+    }
+
+    header ul {
+        flex-direction: column;
+        align-items: flex-start; 
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    header ul li {
+        margin-bottom: 10px; 
+        font-size: 18px;
+    }
+
+    a {
+        font-size: 15px;
+    }
+
+    .principal-arriba {
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+    }
+
+    .principal-arriba h2 {
+        font-size: 50px;
+    }
+
+    .principal-arriba p {
+        width: 90%; 
+        font-size: 20px; 
+        margin-top: 10px;
+    }
+
+    .round {
+        margin-bottom: 20px;
+        width: 250px; 
+        height: 250px;
+    }
+
+    .maquillaje-en-general {
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+    }
+
+    .maquillaje-en-general img {
+        margin-bottom: 20px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .maquillaje-en-general h2 {
+        font-size: 20px; 
+        margin: 10px 0;
+    }
+
+    .sec2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .box img {
+        width: 100%;
+        height: auto;
+    }
+
+    .tiposmaquillaje {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tiposmaquillaje p {
+        width: 90%;
+        font-size: 18px; 
+    }
+
+    .maquillajenatural, .maquillajeartistico {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .maquillajenatural img, .maquillajeartistico img {
+        width: 250px;
+        height: 250px;
+        margin: 0 auto 20px auto;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center; 
+        text-align: center;
+    }
+
+    .footer img {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+
+    .footer h4 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 468px) {
+    header a {
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 14px;
+    }
+
+    .principal-arriba p {
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 18px;
+    }
+
+    .segundocont {
+        margin-left: 0;
+        max-width: 100%;
+        margin-right: 0;
+        font-size: 16px;
+    }
+}

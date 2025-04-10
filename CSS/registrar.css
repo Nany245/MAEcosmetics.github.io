@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/IMG/registrar-background.jpg);
+    font-family: Arial, sans-serif;
+    background-color: #ffff;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFCCE1;
+    height: 60px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffffff;
+}
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 108px;
+    height: auto;
+    margin-right: 20px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+    padding: 5px;
+    
+}
+
+header ul li {
+    margin-right: 58px;
+    font-size: 21px;;
+}
+
+.registrate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfcfc;
+    height: 100vh;
+    padding: 20px;
+    border-radius: 12px;
+    width: 14% ;
+    height: 10px;
+    margin-right: 16px;
+}
+
+.contenedor {
+    padding: 20px;
+    border-radius: 6%;
+    background-color: #f2e8ec;
+    box-shadow: #a5a4a4 0px 0px 20px;
+    width: 400px;
+    height: auto;
+    margin: 100px;
+    zoom: 1.5;
+    margin-left: 234px;
+    margin-top: 40px;
+    animation: subirYMostrar 1.2s ease-out;
+}
+
+@keyframes subirYMostrar {
+    0% {
+        opacity: 0;
+        transform: translateY(50px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+
+.contenedor h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 900px;
+    color: #4e4d4d;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #FF6F91;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 124px;
+    width: 118px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #FF4F71;
+}
+
+.contenedor input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 90px;
+    background-color: #ffffff;
+}
+
+
+u {
+    color: #656565;
+}
